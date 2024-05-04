@@ -3,7 +3,7 @@
 from stockfish import Stockfish
 import chess
 
-fen = "8/2b1kp2/p1p3p1/Pp1p1nPp/1P1PpP1P/2P1P2R/2K5/6R1 w -- 0 1"; depth = 20; top_moves = 5; engine_path = "./stockfish16_popcnt"
+fen = "8/2b1kp2/p1p3p1/Pp1p1nPp/1P1PpP1P/2P1P2R/2K5/6R1 w -- 0 1"; depth = 20; top_moves = 5; engine_path = "./stockfish16-linux-popcnt"
 # starting position fen - rbbnknqr/pppppppp/8/8/8/8/PPPPPPPP/RBBNKNQR w KQkq - 0 1
 
 def coord(board, move, peace):

@@ -9,7 +9,7 @@
 from stockfish import Stockfish
 import chess, sys
 
-depth = 20 ; engine_name = "./stockfish16_popcnt"
+depth = 20 ; engine_name = "./stockfish16-linux-popcnt"
 
 def coord(board, move):
     if move == "exit":
@@ -54,6 +54,7 @@ if mode == "b":
         if board.is_checkmate():
             print("You lost!")
             break
+
         elif board.is_stalemate():
             print("Draw by stalemate")
             break
@@ -67,6 +68,7 @@ if mode == "b":
         if board.is_checkmate():
             print("You won!")
             break
+
         elif board.is_stalemate():
             print("Draw by stalemate")
             break

@@ -3,7 +3,7 @@
 import chess
 import chess.engine
 
-engine_path = "./stockfish16_popcnt"; depth = 20
+engine_path = "./stockfish16-linux-popcnt"; depth = 20
 
 board = chess.Board("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
 engine = chess.engine.SimpleEngine.popen_uci(engine_path)
