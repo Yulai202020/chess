@@ -1,3 +1,5 @@
+# You can generate random starting position (for chess960 or fisher chess)
+
 from random import randint
 
 # Q - ферзь
