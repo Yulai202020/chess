@@ -4,7 +4,7 @@ from random import randint
 
 # Q - ферзь
 # K - King
-# Kn - Knight
+# N - Knight
 # B - Bishop
 # R - Rook
 
